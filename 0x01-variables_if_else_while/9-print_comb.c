@@ -14,12 +14,12 @@ int main(void)
 		if (n == 9)
 			putchar (n + '0');
 		else
-		{	putchar (n + '0');
-			putchar (',');
+		{	putchar (',');
 			putchar (' ');
+			putchar (n + '0');
 		}
 	}
 
-	putchar ('\n');
+
 	return (0);
 }
