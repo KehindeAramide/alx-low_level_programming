@@ -8,18 +8,15 @@ int main(void)
 {
 	int n;
 
-	for (n = 0; n < 10; n++)
+	for (n = 0; n <= 9; n++)
 	{
-
-		if (n == 9)
 			putchar (n + '0');
-		else
-		{	putchar (',');
+			putchar (',');
 			putchar (' ');
-			putchar (n + '0');
-		}
+
+
 	}
 
-
+	putchar ('9');
 	return (0);
 }
