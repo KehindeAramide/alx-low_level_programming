@@ -3,7 +3,6 @@
 
 /**
 * main - takes a date and prints how many days are left in the year, taking
-* remaining_days: number of days in month, day, and year
 * leap years into account
 * Return: 0
 */
